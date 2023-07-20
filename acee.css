@@ -1,0 +1,138 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav_bar {
+    width: auto;
+    height: auto;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom:solid 1px;
+}
+
+nav section{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-larger;
+    margin: 0 20px;
+    color: rgb(247, 247, 247);
+}
+
+.logo {
+    width: auto;
+    height: auto;
+}
+
+#imagen-logo {
+    width: auto;
+    height: 70px;   
+}
+
+.nav-link{
+    color: rgb(255, 255, 255);
+}
+
+#img_inicio{
+    padding-top: 72px;
+}
+
+#card_img{
+    max-width: 100%; 
+}
+
+#servicios{
+    width: 99%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+
+#nuestros_servicios{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-bottom: solid 2px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+#opciones_servicio{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    grid-row-gap: 10px;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.card-title{
+    text-align: center;
+    border-bottom: solid 1px;
+}
+
+.card-text{
+    text-align: center;
+}
+
+#nosotros{
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    text-align: center;
+}
+
+#nosotros h2 {
+    width: 30%;
+    border-bottom: solid 2px;
+    margin: 30px;
+}
+
+#escogenos{
+    width: 98%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
